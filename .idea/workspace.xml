@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbe367e-0964-44cf-928e-2550e9933b17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cms/.idea/cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="efbe367e-0964-44cf-928e-2550e9933b17" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,6 +212,7 @@
       <workItem from="1592200436693" duration="1532000" />
       <workItem from="1592213855249" duration="3836000" />
       <workItem from="1592218416897" duration="4073000" />
+      <workItem from="1592312031397" duration="113000" />
     </task>
     <servers />
   </component>
@@ -234,6 +232,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="568" y="227" key="#Notifications" timestamp="1592312143189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="568" y="227" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1592312143189" />
     <state x="390" y="7" key="#PHP" timestamp="1591543759653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -270,11 +272,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php</url>
           <line>4</line>
