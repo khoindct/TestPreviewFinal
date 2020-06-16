@@ -1,0 +1,148 @@
+*{margin: 0; padding: 0;}
+
+.cangiua {
+    display: flex;
+    justify-content: center;
+}
+
+.nutphongban {
+    position: fixed;
+    z-index: 10;
+    bottom: 20px;
+    right: 25px;
+}
+
+.container.thanhmenu {
+    height: 40px;
+}
+
+.thanhnhanvien {
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.ndnhanvien {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.canchinh {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 39%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.bocngoai {
+    position: relative;
+}
+
+.tranghienthi {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.nenden {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #000000c4;
+    transition: 0.4s;
+}
+
+.trangthemmoi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: 0.4s;
+    position: relative;
+}
+
+button.btn.btn-danger.nuttat {
+    position: absolute;
+    right: 0%;
+    transform: translateY(-133%);
+}
+
+.noidungthemmoi {
+    width: 50%;
+    background-color: white;
+    padding: 50px 90px;
+    position: absolute;
+    z-index: 4;
+}
+
+.tinhnang1 a:hover {
+    text-decoration: none;
+}
+
+.tinhnang1 li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.cotphai {
+    width: 100%;
+    height: 100%;
+    float:left;
+    background-color: black;
+    color: white;
+}
+
+.cottrai {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.bocngoai {
+    height: 100%;
+    width: 100%;
+}
+
+.col-sm-6.dangky{
+    float: left;
+    border-right: 1px solid black;
+}
+.col-sm-6.dangnhap{
+    float: left;
+}
+
+.bienmat {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.xoa {
+    display: none;
+    transition: 0.4s;
+}
+
+.thongbaoadd {
+    transition: 0.4s;
+}
